@@ -27,7 +27,7 @@ class SendNotification {
     }
 }
 
-const payment = new Payment('credit');
+const payment = new Payment('pix');
 const statusPay = payment.confirmTypePay();
 console.log(`Payment status: ${statusPay}`);
 
